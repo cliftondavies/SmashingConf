@@ -142,3 +142,73 @@ a {
   font-size: 25px;
   font-weight: 900;
 }
+
+/* Schedule */
+.schedule {
+  padding: 40px 0 60px 0;
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.schedule div {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.schedule h3 {
+  margin-bottom: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.schedule h3:after {
+  display: block;
+  content: "";
+  width: 35px;
+  margin: 10px auto;
+  border: 1px solid var(--secondary-color);
+}
+
+.schedule ul {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.schedule li {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2px;
+  padding: 15px 10px;
+  height: 150px;
+  background: rgba(211, 211, 211, .1);
+}
+
+.schedule li:last-child { margin-right: 0 }
+
+.schedule li:nth-of-type(4) {
+  border: 2px solid #fff;
+}
+
+.schedule .fas,
+.schedule .far {
+  font-size: 25px;
+}
+
+.schedule span:first-of-type {
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.schedule span:last-child {
+  font-size: 13px;
+  text-align: center;
+}
+
+.schedule a {
+  font-size: 13px;
+  border-bottom: 1px solid #fff;
+}
