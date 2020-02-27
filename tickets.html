@@ -7,8 +7,11 @@
 
     <title>SmashingConf SF 2020</title>
 
+    <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Work+Sans:900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/feec7411d6.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -40,22 +43,107 @@
 
     <!--Main Page Wrapper-->
     <main>
-      <!--Pricing-->
-      <section>
-        <nav>
-          <ul>
-            <li><a href="#"><i class="fas fa-home"></i><i class="fas fa-chevron-right"></i></a></li> <!--Link to index page-->
-            <li><a href="#">About <i class="fas fa-chevron-right"></i></a></li> <!--Link to about page-->
-            <li><a href="#">Buy Tickets</a></li> <!--Link to tickets page-->
-          </ul>
-        </nav>
+      <form action="#">
 
-        <h2>Select Tickets</h2>
+        <!--Pricing-->
+        <section>
+          <nav>
+            <ul>
+              <li><a href="#"><i class="fas fa-home"></i><i class="fas fa-chevron-right"></i></a></li> <!--Link to index page-->
+              <li><a href="#">About <i class="fas fa-chevron-right"></i></a></li> <!--Link to about page-->
+              <li><a href="#">Buy Tickets</a></li> <!--Link to tickets page-->
+            </ul>
+          </nav>
 
-        <p>SmashingConf is a friendly, inclusive event which is focused on real-world problems and solutions. 2 days, 1 track, 14 speakers 300–400 attendees and a bunch of hands-on workshops. Our speakers rarely show slides: they show how they work &mdash; their setup, techniques and shortcuts for getting work done in live interactive sessions. So expect everything from refactoring and debugging to sketching and redesign, live. SmashingConf is focused on front-end and UX, but it covers everything web, be it interface design or machine learning. That means a packed bundle of diverse, actionable insights for your work.</p>
+          <h2>Select Your Ticket</h2>
 
-        <p>It's our task to help you achieve your goals. Please drop an email at <span>mac@smashingconf.com <i class="fas fa-chevron-right"></i></span></p>
-      </section>
+          <p><span>&diams; STEP 1</span>Please select the day(s) you want to attend.</p>
+
+          <table>
+            <thead>
+              <tr>
+                <td>Ticket</td>
+                <td colspan="2">1-Day Ticket</td>
+                <td>2-Day Ticket</td>
+                <td>Partners/Sponsors</td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row">Date</th>
+                <td>21.Apr (Tue)</td>
+                <td>22.Apr (Wed)</td>
+                <td>21.-22. Apr (Tue-Wed)</td>
+                <td>21.-22. Apr (Tue-Wed)</td>
+              </tr>
+              <tr>
+                <th scope="row">Regular</th>
+                <td>$499 <input type="radio"></td>
+                <td>$499 <input type="radio"></td>
+                <td>$699 <input type="radio"></td>
+                <td>£0 <input type="radio"></td>
+              </tr>
+              <tr>
+                <th scope="row">Bundle</th>
+                <td>$1098 <input type="radio"></td>
+                <td>$1098 <input type="radio"></td>
+                <td>$1497 <input type="radio"></td>
+                <td>£0 <input type="radio"></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!--Meal-->
+        <section>
+          <span><i class="fas fa-square-full"></i> <i class="fas fa-chevron-down"></i></span>
+
+          <h2>Select Your Meal</h2>
+
+          <p><span>&diams; STEP 2</span>Please select your lunch for registered day(s). Meal comes at no further cost.</p>
+
+          <table>
+            <thead>
+              <tr>
+                <td>21.Apr (Tue)</td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>meal 1 <input type="radio"></td>
+                <td>meal 2 <input type="radio"></td>
+                <td>meal 3 <input type="radio"></td>
+                <td>meal 4 <input type="radio"></td>
+                <td>meal 5 <input type="radio"></td>
+                <td>meal 6 <input type="radio"></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table>
+            <thead>
+              <tr>
+                <td>22.Apr (Wed)</td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>meal 1 <input type="radio"></td>
+                <td>meal 2 <input type="radio"></td>
+                <td>meal 3 <input type="radio"></td>
+                <td>meal 4 <input type="radio"></td>
+                <td>meal 5 <input type="radio"></td>
+                <td>meal 6 <input type="radio"></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <button type="submit">Submit Preferences</button>
+      </form>
     </main>
 
     <!--Footer-->
