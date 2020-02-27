@@ -40,7 +40,7 @@ a {
   margin: 0 auto;
   padding: 7px 0;
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .header > ul li {
@@ -52,7 +52,10 @@ a {
 }
 
 .header nav {
+  position: relative;
   background: #fff;
+  box-shadow: 0 5px 5px rgb(223, 222, 222);
+  z-index: 5;
 }
 
 .header nav div {
@@ -61,7 +64,6 @@ a {
   align-items: center;
   width: 75%;
   margin: 0 auto;
-  /* padding: 10px 0; */
 }
 
 .header div > a {
@@ -82,8 +84,6 @@ a {
 
 .menu li {
   flex: 1 auto;
-  /* margin-left: 25px; */
-  /* padding: 8px 15px; */
 }
 
 .menu li:first-child,
@@ -100,6 +100,45 @@ a {
 
 /* Intro */
 .intro {
-  height: calc(100vh - 86px);
-  background: linear-gradient(to top, var(--other-color), ), url(..images/sf.jpg);
+  height: calc(100vh - 90px);
+  padding: 90px 0;
+  background: linear-gradient(to top, rgb(248, 246, 246) 60%, rgba(255, 255, 255, 0.8)), url("../images/sf.jpg");
+  background-size: cover;
+}
+
+.intro div {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.intro div > span {
+  font-size: 40px;
+  color: var(--secondary-color);
+}
+
+.intro h2 {
+  padding-top: 10px;
+  font: 60px/1 var(--secondary-font);
+  background: url("../images/goldengate.jpg") repeat;
+  background-size: contain;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro p:first-of-type {
+  display: inline-block;
+  margin-bottom: 25px;
+  border: 2px solid #fff;
+  padding: 12px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.intro p:last-child {
+  line-height: 1.6;
+}
+
+.intro p span {
+  font-size: 25px;
+  font-weight: 900;
 }
