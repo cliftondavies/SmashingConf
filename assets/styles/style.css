@@ -23,12 +23,19 @@ a {
   text-decoration: none;
 }
 
+/* Page Wrapper */
+.page-wrapper {
+  max-width: 1351px;
+  margin: 0 auto;
+  box-shadow: 5px 0 5px rgb(223, 222, 222), -5px 0 5px rgb(223, 222, 222);
+}
+
 /* Header */
 .header {
   background: var(--primary-color);
 }
 
-.header h1 {
+.hidden {
   position: absolute;
   left: -9999px;
 }
@@ -100,8 +107,7 @@ a {
 
 /* Intro */
 .intro {
-  height: calc(100vh - 90px);
-  padding: 90px 0;
+  min-height: calc(100vh - 90px);
   background: linear-gradient(to top, rgb(248, 246, 246) 60%, rgba(255, 255, 255, 0.8)), url("../images/sf.jpg");
   background-size: cover;
 }
@@ -109,6 +115,7 @@ a {
 .intro div {
   width: 75%;
   margin: 0 auto;
+  padding: 90px 0;
 }
 
 .intro div > span {
@@ -145,14 +152,16 @@ a {
 
 /* Schedule */
 .schedule {
-  padding: 40px 0 60px 0;
-  background: var(--primary-color);
+  background: url("../images/greypattern.jpg") no-repeat;
+  background-size: cover;
+  font-weight: 700;
   color: #fff;
 }
 
 .schedule div {
   width: 75%;
   margin: 0 auto;
+  padding: 40px 0 60px 0;
   text-align: center;
 }
 
@@ -181,10 +190,10 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-right: 2px;
+  margin-right: 3px;
   padding: 15px 10px;
   height: 150px;
-  background: rgba(211, 211, 211, .1);
+  background: rgba(211, 211, 211, .2);
 }
 
 .schedule li:last-child { margin-right: 0 }
@@ -199,7 +208,6 @@ a {
 }
 
 .schedule span:first-of-type {
-  font-weight: 700;
   color: var(--secondary-color);
 }
 
@@ -211,4 +219,83 @@ a {
 .schedule a {
   font-size: 13px;
   border-bottom: 1px solid #fff;
+}
+
+/* Speakers */
+.speakers {
+  width: 75%;
+  margin: 0 auto;
+  padding: 40px 0 30px 0;
+}
+
+.speakers h3 {
+  margin-bottom: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.speakers h3:after {
+  display: block;
+  content: "";
+  width: 35px;
+  margin: 10px auto;
+  border: 1px solid var(--secondary-color);
+}
+
+.speakers > div {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-column-gap: 25px;
+  grid-row-gap: 45px;
+  grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
+}
+
+.speakers article {
+  /* flex-basis: 50%; */
+  display: flex;
+  /* margin-bottom: 30px; */
+}
+
+.speakers img {
+  display: block;
+  flex: 0;
+  width: 90px;
+  height: 90px;
+  border-width: 10px;
+  border-image-slice: 147 0 0 186;
+  border-image-width: 10px 20px 20px 10px;
+  border-image-outset: 10px 0px 0px 10px;
+  border-image-repeat: round round;
+  border-image-source: url("https://previews.123rf.com/images/pavelav/pavelav1709/pavelav170900097/87041448-design-frame-with-the-modern-surroundings-with-a-border-of-the-chess-board.jpg");
+  object-fit: cover;
+}
+
+.speakers article > div {
+  padding-left: 15px;
+}
+
+.speakers h4 {
+  font-weight: 700;
+}
+
+.speakers h4:after {
+  display: block;
+  content: "";
+  width: 20px;
+  margin: 8px 0;
+  border: 1px solid var(--other-color);
+}
+
+.speakers span {
+  font-size: 12px;
+  color: var(--secondary-color);
+}
+
+.speakers p {
+  font-size: 13px;
+}
+
+.speakers button {
+  display: none;
 }
