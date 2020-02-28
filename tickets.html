@@ -9,154 +9,169 @@
 
     <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Work+Sans:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:900&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/feec7411d6.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <!--Header-->
-    <header class="header">
-      <h1>Smashing Magazine Conference About Page</h1> <!--Hide-->
+    <!--Page Wrapper-->
+    <div class="page-wrapper">
 
-      <ul>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Volunteer</a></li>
-        <li><a href="#">Terms</a></li>
-      </ul>
+      <!--Header-->
+      <header class="header">
+        <h1 class="hidden">Smashing Magazine Conference Tickets Page</h1>
 
-      <nav>
-        <a href="#"></a> <!--Add logo as background img, and path to index-->
-
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Partners</a></li>
-          <li><a href="#">Locations</a></li>
-          <li><a href="#">Buy Tickets</a></li>
+        <ul class="container">
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Terms</a></li>
         </ul>
-      </nav>
-    </header>
 
-    <!--Main Page Wrapper-->
-    <main>
-      <form action="#">
+        <nav>
+          <h2 class="hidden">Site Navigation</h2>
 
-        <!--Pricing-->
-        <section>
-          <nav>
-            <ul>
-              <li><a href="#"><i class="fas fa-home"></i><i class="fas fa-chevron-right"></i></a></li> <!--Link to index page-->
-              <li><a href="#">About <i class="fas fa-chevron-right"></i></a></li> <!--Link to about page-->
-              <li><a href="#">Buy Tickets</a></li> <!--Link to tickets page-->
+          <div class="container">
+            <a href="index.html"></a>
+
+            <ul class="menu">
+              <li><a href="about.html">About</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#speakers">Speakers</a></li>
+              <li><a href="#partners">Partners</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="tickets.html">Buy Tickets</a></li>
             </ul>
-          </nav>
+          </div>
+        </nav>
+      </header>
 
-          <h2>Select Your Ticket</h2>
+      <!--Main Page Wrapper-->
+      <main>
+        <h2 class="hidden">Tickets Page Wrapper</h2>
 
-          <p><span>&diams; STEP 1</span>Please select the day(s) you want to attend.</p>
+        <form action="#">
 
-          <table>
-            <thead>
-              <tr>
-                <td>Ticket</td>
-                <td colspan="2">1-Day Ticket</td>
-                <td>2-Day Ticket</td>
-                <td>Partners/Sponsors</td>
-              </tr>
-            </thead>
+          <!--Pricing-->
+          <section class="pricing">
+            <div class="container-two">
+              <nav class="side-nav">
+                <ul>
+                  <li><a href="#"><i class="fas fa-home"></i><i class="fas fa-chevron-right"></i></a></li>
+                  <li><a href="#">About <i class="fas fa-chevron-right"></i></a></li>
+                  <li><a href="#">Buy Tickets</a></li>
+                </ul>
+              </nav>
 
-            <tbody>
-              <tr>
-                <th scope="row">Date</th>
-                <td>21.Apr (Tue)</td>
-                <td>22.Apr (Wed)</td>
-                <td>21.-22. Apr (Tue-Wed)</td>
-                <td>21.-22. Apr (Tue-Wed)</td>
-              </tr>
-              <tr>
-                <th scope="row">Regular</th>
-                <td>$499 <input type="radio"></td>
-                <td>$499 <input type="radio"></td>
-                <td>$699 <input type="radio"></td>
-                <td>£0 <input type="radio"></td>
-              </tr>
-              <tr>
-                <th scope="row">Bundle</th>
-                <td>$1098 <input type="radio"></td>
-                <td>$1098 <input type="radio"></td>
-                <td>$1497 <input type="radio"></td>
-                <td>£0 <input type="radio"></td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+              <h3>Select Your Ticket</h3>
 
-        <!--Meal-->
-        <section>
-          <span><i class="fas fa-square-full"></i> <i class="fas fa-chevron-down"></i></span>
+              <p><span>&diams; STEP 1</span>Please select the day(s) you want to attend.</p>
 
-          <h2>Select Your Meal</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <td>Ticket</td>
+                    <td colspan="2">1-Day Ticket</td>
+                    <td>2-Day Ticket</td>
+                    <td>Partners/Sponsors</td>
+                  </tr>
+                </thead>
 
-          <p><span>&diams; STEP 2</span>Please select your lunch for registered day(s). Meal comes at no further cost.</p>
+                <tbody>
+                  <tr>
+                    <th scope="row">Date</th>
+                    <td>21.Apr (Tue)</td>
+                    <td>22.Apr (Wed)</td>
+                    <td>21.-22. Apr (Tue-Wed)</td>
+                    <td>21.-22. Apr (Tue-Wed)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Regular</th>
+                    <td>$499 <br> <input type="radio"></td>
+                    <td>$499 <br> <input type="radio"></td>
+                    <td>$699 <br> <input type="radio"></td>
+                    <td>$0 <br> <input type="radio"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Bundle</th>
+                    <td>$1098 <br> <input type="radio"></td>
+                    <td>$1098 <br> <input type="radio"></td>
+                    <td>$1497 <br> <input type="radio"></td>
+                    <td>$0 <br> <input type="radio"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
 
-          <table>
-            <thead>
-              <tr>
-                <td>21.Apr (Tue)</td>
-              </tr>
-            </thead>
+          <!--Meal-->
+          <section>
+            <span><i class="fas fa-square-full"></i> <i class="fas fa-chevron-down"></i></span>
 
-            <tbody>
-              <tr>
-                <td>meal 1 <input type="radio"></td>
-                <td>meal 2 <input type="radio"></td>
-                <td>meal 3 <input type="radio"></td>
-                <td>meal 4 <input type="radio"></td>
-                <td>meal 5 <input type="radio"></td>
-                <td>meal 6 <input type="radio"></td>
-              </tr>
-            </tbody>
-          </table>
+            <h3>Select Your Meal</h3>
 
-          <table>
-            <thead>
-              <tr>
-                <td>22.Apr (Wed)</td>
-              </tr>
-            </thead>
+            <p><span>&diams; STEP 2</span>Please select your lunch for registered day(s). Meal comes at no further cost.</p>
 
-            <tbody>
-              <tr>
-                <td>meal 1 <input type="radio"></td>
-                <td>meal 2 <input type="radio"></td>
-                <td>meal 3 <input type="radio"></td>
-                <td>meal 4 <input type="radio"></td>
-                <td>meal 5 <input type="radio"></td>
-                <td>meal 6 <input type="radio"></td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+            <table>
+              <thead>
+                <tr>
+                  <td>21.Apr (Tue)</td>
+                </tr>
+              </thead>
 
-        <button type="submit">Submit Preferences</button>
-      </form>
-    </main>
+              <tbody>
+                <tr>
+                  <td>meal 1 <input type="radio"></td>
+                  <td>meal 2 <input type="radio"></td>
+                  <td>meal 3 <input type="radio"></td>
+                  <td>meal 4 <input type="radio"></td>
+                  <td>meal 5 <input type="radio"></td>
+                  <td>meal 6 <input type="radio"></td>
+                </tr>
+              </tbody>
+            </table>
 
-    <!--Footer-->
-    <footer>
-      <h3>About Page Footer</h3> <!--Hide-->
+            <table>
+              <thead>
+                <tr>
+                  <td>22.Apr (Wed)</td>
+                </tr>
+              </thead>
 
-      <a href="#"></a> <!--Logo Background Image-->
+              <tbody>
+                <tr>
+                  <td>meal 1 <input type="radio"></td>
+                  <td>meal 2 <input type="radio"></td>
+                  <td>meal 3 <input type="radio"></td>
+                  <td>meal 4 <input type="radio"></td>
+                  <td>meal 5 <input type="radio"></td>
+                  <td>meal 6 <input type="radio"></td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
 
-      <div>
-        <span>2020 Smashing Magazine. Some Rights Reserved.</span>
+          <button type="submit">Submit Preferences</button>
+        </form>
+      </main>
 
-        <p>With a commitment to quality content for the design community. <a href="#">Smashing Media AG</a> 2011-2019. Hosted on <a href="#">Netlify</a>.</p>
-      </div>
-    </footer>
+      <!--Footer-->
+      <footer class="footer other-footer">
+        <h2 class="hidden">Ticket Page Footer</h2>
+
+        <div class="container">
+          <a href="#"></a>
+
+          <div>
+            <span>2020 Smashing Magazine. Some Rights Reserved.</span>
+
+            <p>With a commitment to quality content for the design community. <a href="#">Smashing Media AG</a> 2011-2019. <br> Hosted on <a href="#">Netlify</a>.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
