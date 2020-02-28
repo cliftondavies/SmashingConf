@@ -31,13 +31,13 @@ a {
 
 /* Container One */
 .container {
-  width: 75%;
+  max-width: 1013px;
   margin: 0 auto;
 }
 
 /* Container Two */
 .container-two {
-  width: 60%;
+  max-width: 810px;
   margin: 0 auto;
 }
 
