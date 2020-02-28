@@ -17,9 +17,9 @@
   <body>
     <!--Header-->
     <header class="header">
-      <h1>Smashing Magazine Conference About Page</h1> <!--Hide-->
+      <h1 class="hidden">Smashing Magazine Conference About Page</h1> <!--Hide-->
 
-      <ul>
+      <ul class="container">
         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
         <li><a href="#">Contact</a></li>
@@ -28,45 +28,52 @@
       </ul>
 
       <nav>
-        <a href="#"></a> <!--Add logo as background img, and path to index-->
+        <div class="container">
+          <a href="index.html"></a>
 
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Partners</a></li>
-          <li><a href="#">Locations</a></li>
-          <li><a href="#">Buy Tickets</a></li>
-        </ul>
+          <ul class="menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#speaker">Speakers</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="tickets.html">Buy Tickets</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
 
     <!--Main Page Wrapper-->
     <main>
       <!--Conf Info-->
-      <section>
-        <nav>
-          <ul>
-            <li><a href="#"><i class="fas fa-home"></i><i class="fas fa-chevron-right"></i></a></li> <!--Link to index page-->
-            <li><a href="#">About <i class="fas fa-chevron-right"></i></a></li> <!--Link to about page-->
-            <li><a href="#">Buy Tickets</a></li> <!--Link to tickets page-->
-          </ul>
-        </nav>
+      <section class="conf-info">
+        <div class="container">
+          <nav>
+            <ul>
+              <li><a href="index.html"><i class="fas fa-home"></i><i class="fas fa-chevron-right fa-sm"></i></a></li>
+              <li><a href="about.html">About <i class="fas fa-chevron-right fa-sm"></i></a></li>
+              <li><a href="tickets.html">Buy Tickets</a></li>
+            </ul>
+          </nav>
 
-        <h2>SMASHING MAGAZINE SF CONFERENCE 2020</h2>
 
-        <p>SmashingConf is a friendly, inclusive event which is focused on real-world problems and solutions. 2 days, 1 track, 14 speakers 300–400 attendees and a bunch of hands-on workshops. Our speakers rarely show slides: they show how they work &mdash; their setup, techniques and shortcuts for getting work done in live interactive sessions. So expect everything from refactoring and debugging to sketching and redesign, live. SmashingConf is focused on front-end and UX, but it covers everything web, be it interface design or machine learning. That means a packed bundle of diverse, actionable insights for your work.</p>
+          <h2>SMASHING MAGAZINE <br> SF CONFERENCE 2020</h2>
 
-        <p>It's our task to help you achieve your goals. Please drop an email at <span>mac@smashingconf.com <i class="fas fa-chevron-right"></i></span></p>
+          <p>SmashingConf is a friendly, inclusive event which is focused on real-world problems and solutions. 2 days, 1 track, 14 speakers 300–400 attendees and a bunch of hands-on workshops. <br> Our speakers rarely show slides: they show how they work &mdash; their setup, techniques and shortcuts for getting work done in live interactive sessions. So expect everything from refactoring and debugging to sketching and redesign, live. <br> SmashingConf is focused on front-end and UX, but it covers everything web, be it interface design or machine learning. That means a packed bundle of diverse, actionable insights for your work.</p>
+
+          <p>It's our task to help you achieve your goals. Please drop an email at <br> <span>mac@smashingconf.com</span> <i class="fas fa-chevron-right fa-xs"></i></p>
+        </div>
       </section>
 
       <!--Conf Logo-->
-      <section>
-        <h3>Smashing Magazine Conference Logo 2020</h3>
+      <section class="conf-logo">
+        <div class="container">
+          <h3>Smashing Magazine Conference Logo 2020</h3>
 
-        <p>The logo of Smashing Magazine Conf 2020 was decided through the logo competition from 13. January to 17. February. Following public voting and expert panel evaluation, the logo from Clifton Davies was selected. After much deliberation with Mr. Agrawal we ended up with the following logo for this years conference:</p>
+          <p>The logo of Smashing Magazine Conf 2020 was decided through the logo competition from 13. January to 17. February. Following public voting and expert panel evaluation, the logo from Clifton Davies was selected. After much deliberation with Mr. Agrawal we ended up with the following logo for this years conference:</p>
 
-        <img src="" alt="smashing magazine sf conf 2020 logo"> <!--Add SVG image url-->
+          <img src="assets/images/smconflogo.svg" alt="smashing magazine sf conf 2020 logo">
+        </div>
       </section>
 
       <!--Past Events-->
@@ -92,15 +99,17 @@
     </main>
 
     <!--Footer-->
-    <footer>
-      <h3>About Page Footer</h3> <!--Hide-->
+    <footer class="footer about-footer">
+      <h3 class="hidden">About Page Footer</h3>
 
-      <a href="#"></a> <!--Logo Background Image-->
+      <div class="container">
+        <a href="#"></a>
 
-      <div>
-        <span>2020 Smashing Magazine. Some Rights Reserved.</span>
+        <div>
+          <span>2020 Smashing Magazine. Some Rights Reserved.</span>
 
-        <p>With a commitment to quality content for the design community. <a href="#">Smashing Media AG</a> 2011-2019. Hosted on <a href="#">Netlify</a>.</p>
+          <p>With a commitment to quality content for the design community. <a href="#">Smashing Media AG</a> 2011-2019. Hosted on <a href="#">Netlify</a>.</p>
+        </div>
       </div>
     </footer>
   </body>
