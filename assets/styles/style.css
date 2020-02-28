@@ -28,6 +28,11 @@ a {
   margin: 0 auto;
 }
 
+.container-two {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .section-heading {
   margin-bottom: 40px;
   font-size: 20px;
@@ -363,14 +368,16 @@ a {
   text-align: center;
 }
 
-.conf-info > div {
+.conf-info div {
   position: relative;
+  /* width: 60%;
+  margin: 0 auto; */
   padding: 75px 0;
 }
 
 .conf-info nav {
   position: absolute;
-  right: 10px;
+  right: -60px;
   top: 20px;
   font-size: 14px;
 }
@@ -394,7 +401,6 @@ a {
 .conf-info h2 {
   margin-bottom: 24px;
   font: 35px/1 var(--secondary-font);
-  /* text-align: center; */
   color: var(--secondary-color);
 }
 
@@ -407,14 +413,12 @@ a {
 }
 
 .conf-info p:first-of-type {
-  width: 85%;
-  margin: 0 auto 35px auto;
-  border: 1px solid var(--other-color);
+  margin-bottom: 35px;
+  border: 2px solid var(--other-color);
   padding: 20px 50px;
   background: #fff;
   font-size: 14px;
   line-height: 1.5;
-  /* text-align: center; */
 }
 
 .conf-info p:last-child {
@@ -426,4 +430,46 @@ a {
   margin-right: 5px;
   border-bottom: 1px solid var(--primary-color);
   font-weight: 700;
+}
+
+/* Conf Logo */
+.conf-logo {
+  border-bottom: 1px solid var(--other-color);
+  background: #fff;
+  text-align: center;
+}
+
+.conf-logo div {
+  /* width: 60%;
+  margin: 0 auto; */
+  padding: 35px 0 28px 0;
+}
+
+.conf-logo h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.conf-logo h3:after {
+  display: block;
+  content: "";
+  width: 20px;
+  margin: 15px auto;
+  border: 1px solid var(--secondary-color);
+}
+
+.conf-logo p {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.conf-logo img {
+  display: block;
+  width: 350px;
+  height: 150px;
+  margin: 0 auto;
+  border: 2px solid var(--other-color);
+  object-fit: contain;
 }
