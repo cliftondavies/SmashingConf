@@ -225,7 +225,7 @@ a {
 .speakers {
   width: 75%;
   margin: 0 auto;
-  padding: 40px 0 30px 0;
+  padding: 40px 0 60px 0;
 }
 
 .speakers h3 {
@@ -298,4 +298,52 @@ a {
 
 .speakers button {
   display: none;
+}
+
+/* Partners */
+.partners {
+  background: var(--primary-color);
+  color: var(--other-color);
+}
+
+.partners div {
+  width: 75%;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+}
+
+.partners h3 {
+  margin-bottom: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.partners h3:after {
+  display: block;
+  content: "";
+  width: 35px;
+  margin: 10px auto;
+  border: 1px solid var(--secondary-color);
+}
+
+.partners ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* height: 20px; */
+}
+
+/* .partners li {
+  width: 150px;
+  height: 20px;
+} */
+
+.partners img {
+  width: 150px;
+  height: 50px;
+}
+
+.partners li:last-child img {
+  height: 30px;
 }
