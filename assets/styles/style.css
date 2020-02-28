@@ -230,8 +230,6 @@ a {
 }
 
 .speakers > div {
-  /* display: flex;
-  flex-wrap: wrap; */
   display: grid;
   grid-column-gap: 25px;
   grid-row-gap: 45px;
@@ -239,9 +237,7 @@ a {
 }
 
 .speakers article {
-  /* flex-basis: 50%; */
   display: flex;
-  /* margin-bottom: 30px; */
 }
 
 .speakers img {
@@ -370,8 +366,6 @@ a {
 
 .conf-info div {
   position: relative;
-  /* width: 60%;
-  margin: 0 auto; */
   padding: 75px 0;
 }
 
@@ -440,8 +434,6 @@ a {
 }
 
 .conf-logo div {
-  /* width: 60%;
-  margin: 0 auto; */
   padding: 35px 0 28px 0;
 }
 
@@ -472,4 +464,67 @@ a {
   margin: 0 auto;
   border: 2px solid var(--other-color);
   object-fit: contain;
+}
+
+/* Past Events */
+.past-events {
+  padding: 35px 0 80px 0;
+  text-align: center;
+}
+
+.past-events h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.past-events h3:after {
+  display: block;
+  content: "";
+  width: 20px;
+  margin: 15px auto;
+  border: 1px solid var(--secondary-color);
+}
+
+.past-events p {
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.past-events div {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.past-events a {
+  display: block;
+  flex-basis: 49%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.past-events a:first-child {
+  background: linear-gradient(to right, rgba(231,56,39,0.7) 0%, rgba(241,111,92,0.7) 100%), url("https://d33wubrfki0l68.cloudfront.net/0a19967db35a103e7d4b00103c45934baddb333e/54502/images/highlights/smashingconf-highlights-3.jpg") no-repeat;
+  background-size: cover;
+}
+
+.past-events a:last-child {
+  background: linear-gradient(to right, rgba(231,56,39,0.7) 0%, rgba(241,111,92,0.7) 100%), url("https://d33wubrfki0l68.cloudfront.net/306bf91e85073c46b02861771270726709ce4532/9c9aa/images/highlights/smashingconf-highlights-1.jpg") no-repeat;
+  background-size: cover;
+}
+
+.past-events span:first-child {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.past-events span:last-child {
+  font-size: 13px;
+  font-weight: 700;
 }
