@@ -242,13 +242,17 @@ button {
 
 /* Intro */
 .intro {
-  min-height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: calc(100vh - 90px);
   background: linear-gradient(to top, rgb(248, 246, 246) 60%, rgba(255, 255, 255, 0.8)), url("../images/sfc.jpg");
   background-size: cover;
 }
 
 .intro div {
-  padding: 90px 15px;
+  padding: 0 15px;
+  flex: 1;
 }
 
 .intro div > span {
@@ -266,6 +270,12 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+  .intro {
+    height: auto;
+    padding-top: 90px;
+    padding-bottom: 65px;
+  }
+
   .intro div > span {
     font-size: 23px;
   }
@@ -355,7 +365,7 @@ button {
 
 .schedule a:last-child {
   display: none;
-  padding: 30px 50px;
+  padding: 27px 50px;
   font-size: 17px;
   font-weight: 700;
   background: var(--secondary-color);
