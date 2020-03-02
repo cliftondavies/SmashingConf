@@ -261,6 +261,7 @@ button {
 }
 
 .intro h3 {
+  margin-bottom: 10px;
   padding-top: 10px;
   font: 900 60px/1 var(--secondary-font);
   background: url("../images/goldengatec.jpg") repeat;
@@ -289,7 +290,7 @@ button {
   display: inline-block;
   margin-bottom: 25px;
   border: 2px solid #fff;
-  padding: 12px 10px;
+  padding: 15px 15px;
   font-size: 13px;
   line-height: 1.5;
 }
@@ -532,14 +533,26 @@ button {
 }
 
 .partners div {
-  padding: 30px 15px;
+  padding: 30px 15px 25px;
+}
+
+.partners h3 {
+  margin-bottom: 15px;
 }
 
 .partners ul {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .partners ul {
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 0 auto;
+  }
 }
 
 .partners li {
