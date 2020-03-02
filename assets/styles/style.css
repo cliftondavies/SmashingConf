@@ -684,7 +684,7 @@ button {
 .past-events a {
   display: flex;
   flex-basis: 49%;
-  height: 200px;
+  height: 180px;
   flex-direction: column;
   justify-content: center;
 }
@@ -709,6 +709,21 @@ button {
 .past-events span:last-child {
   font-size: 13px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .past-events div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .past-events a {
+    flex-basis: 382px;
+  }
+
+  .past-events a:first-child {
+    margin-bottom: 15px;
+  }
 }
 
 /* Form */
