@@ -144,6 +144,10 @@ button {
   background: var(--primary-color);
 }
 
+@media screen and (max-width: 767px) {
+  .header { display: none; }
+}
+
 .header > ul {
   display: flex;
   justify-content: flex-end;
@@ -215,6 +219,7 @@ button {
   width: 100%;
 }
 
+/* Main */
 .main {
   position: relative;
 }
@@ -222,9 +227,13 @@ button {
 .main > button {
   position: absolute;
   top: 20px;
-  left: 25px;
+  left: 22px;
   display: none;
   background: none;
+}
+
+@media screen and (max-width: 767px) {
+  .main > button { display: inline-block; }
 }
 
 .main .fa-bars {
@@ -254,6 +263,16 @@ button {
   background-size: contain;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .intro div > span {
+    font-size: 23px;
+  }
+
+  .intro h3 {
+    font-size: 40px;
+  }
 }
 
 .intro p:first-of-type {
@@ -312,10 +331,6 @@ button {
   margin-bottom: 10px;
 }
 
-.schedule li span:last-child {
-  margin-bottom: 0;
-}
-
 .schedule .fas,
 .schedule .far {
   font-size: 25px;
@@ -323,17 +338,88 @@ button {
 
 .schedule span:first-of-type {
   color: var(--secondary-color);
+  font-size: 16px;
 }
 
 .schedule span:last-child {
+  margin-bottom: 0;
   font-size: 13px;
   line-height: 1.4;
   text-align: center;
 }
 
-.schedule a {
+.schedule a:first-of-type {
   font-size: 13px;
   border-bottom: 1px solid #fff;
+}
+
+.schedule a:last-child {
+  display: none;
+  padding: 30px 50px;
+  font-size: 17px;
+  font-weight: 700;
+  background: var(--secondary-color);
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .schedule div {
+    padding-bottom: 40px;
+  }
+
+  .schedule ul {
+    flex-direction: column;
+    margin-bottom: 35px;
+  }
+
+  .schedule li {
+    flex-basis: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+  }
+
+  .schedule li:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .schedule li:nth-of-type(4) {
+    border: none;
+  }
+
+  .schedule li > * {
+    margin-bottom: 0;
+    padding-right: 20px;
+  }
+
+  .schedule .fas,
+  .schedule .far {
+    font-size: 28px;
+  }
+
+  .schedule span:first-of-type {
+    flex-basis: 111px;
+    flex-shrink: 0;
+    font-size: 17px;
+    text-align: left;
+  }
+
+  .schedule span:last-child {
+    padding-right: 0;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .schedule a:first-of-type {
+    display: none;
+  }
+
+  .schedule a:last-child {
+    display: inline-block;
+  }
 }
 
 /* Speakers */
@@ -384,6 +470,7 @@ button {
 
 .speakers span {
   font-size: 12px;
+  font-style: italic;
   color: var(--secondary-color);
 }
 
@@ -394,6 +481,38 @@ button {
 
 .speakers button {
   display: none;
+  width: 100%;
+  border: 1px solid rgb(223, 222, 222);
+  border-radius: 3px;
+  padding: 13px 0;
+  font-weight: 700;
+  background: #fff;
+}
+
+.speakers .fas {
+  margin-left: 5px;
+  color: var(--secondary-color);
+}
+
+@media screen and (max-width: 767px) {
+  .speakers {
+    padding-bottom: 40px;
+  }
+
+  .speakers > div {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 50px;
+  }
+
+  .speakers article:nth-of-type(even),
+  .speakers article:nth-of-type(5) {
+    display: none;
+  }
+
+  .speakers button {
+    display: block;
+  }
 }
 
 /* Partners */
