@@ -1,4 +1,4 @@
-/* General */
+/* ---------------------General------------------- */
 :root {
   --primary-color: #272a31;
   --secondary-color: #ec5242;
@@ -9,9 +9,7 @@
 
 *,
 *::before,
-*::after {
-  box-sizing: border-box;
-}
+*::after { box-sizing: border-box; }
 
 body {
   font-family: var(--primary-font);
@@ -23,9 +21,7 @@ a {
   text-decoration: none;
 }
 
-button {
-  border: none;
-}
+button { border: none; }
 
 /* Hidden Headers for SEO purposes */
 .hidden {
@@ -33,20 +29,20 @@ button {
   left: -9999px;
 }
 
-/* Container One */
+/* --Container One-- */
 .container {
   max-width: 1013px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-/* Container Two */
+/* --Container Two-- */
 .container-two {
   max-width: 810px;
   margin: 0 auto;
 }
 
-/* Index Heading Three */
+/* ----------------------Index Heading Three-------------------- */
 .index-h-three {
   margin-bottom: 40px;
   font-size: 20px;
@@ -61,7 +57,7 @@ button {
   border-top: 1px solid var(--secondary-color);
 }
 
-/* Side Menu */
+/* ---------------------------Side Menu----------------------- */
 .side-menu {
   position: absolute;
   right: 30px;
@@ -70,19 +66,13 @@ button {
   font-size: 14px;
 }
 
-.side-menu li {
-  margin-left: 5px;
-}
+.side-menu li { margin-left: 5px; }
 
-.side-menu .fas {
-  margin-left: 5px;
-}
+.side-menu .fas { margin-left: 5px; }
 
-.side-menu .fa-chevron-right {
-  color: var(--secondary-color);
-}
+.side-menu .fa-chevron-right { color: var(--secondary-color); }
 
-/* About Heading Three */
+/* ---------------------About Heading Three-------------------- */
 .about-h-three {
   margin-bottom: 15px;
   font-size: 18px;
@@ -97,7 +87,7 @@ button {
   border-top: 1px solid var(--secondary-color);
 }
 
-/* Ticket Heading Three */
+/* ------------Ticket Heading Three------------ */
 .ticket-h-three {
   margin-bottom: 30px;
   font-size: 18px;
@@ -112,7 +102,7 @@ button {
   border-top: 1px solid var(--secondary-color);
 }
 
-/* Ticket Steps */
+/* ------------------------------Ticket Steps-------------------------------- */
 .ticket-step {
   display: inline-block;
   margin-bottom: 32px;
@@ -128,21 +118,17 @@ button {
   color: var(--secondary-color);
 }
 
-.ticket-step span:first-child {
-  margin-right: 5px;
-}
+.ticket-step span:first-child { margin-right: 5px; }
 
-/* Page Wrapper */
+/* --------------------------------Page Wrapper------------------------------ */
 .page-wrapper {
   max-width: 1351px;
   margin: 0 auto;
   box-shadow: 5px 0 5px rgb(223, 222, 222), -5px 0 5px rgb(223, 222, 222);
 }
 
-/* Header */
-.header {
-  background: var(--primary-color);
-}
+/* ----------------------------------Header----------------------------------- */
+.header { background: var(--primary-color); }
 
 @media screen and (max-width: 767px) {
   .header { display: none; }
@@ -156,13 +142,9 @@ button {
   font-size: 13px;
 }
 
-.header > ul li {
-  margin-left: 14px;
-}
+.header > ul li { margin-left: 14px; }
 
-.header > ul li:nth-of-type(2) {
-  margin-left: 10px;
-}
+.header > ul li:nth-of-type(2) { margin-left: 10px; }
 
 .header nav {
   position: relative;
@@ -201,9 +183,7 @@ button {
 }
 
 .main-menu li:first-child,
-.main-menu li:last-child {
-  color: var(--secondary-color);
-}
+.main-menu li:last-child { color: var(--secondary-color); }
 
 .main-menu li:last-child {
   border: 3px solid var(--secondary-color);
@@ -218,10 +198,8 @@ button {
   width: 100%;
 }
 
-/* Main */
-.main {
-  position: relative;
-}
+/* ----------------------------Main------------------------- */
+.main { position: relative; }
 
 .main > button {
   position: absolute;
@@ -235,11 +213,9 @@ button {
   .main > button { display: inline-block; }
 }
 
-.main .fa-bars {
-  font-size: 45px;
-}
+.main .fa-bars { font-size: 45px; }
 
-/* Intro */
+/* ----------------------------------------------------Intro-------------------------------------------------------- */
 .intro {
   display: flex;
   align-items: center;
@@ -276,13 +252,9 @@ button {
     padding-bottom: 65px;
   }
 
-  .intro div > span {
-    font-size: 23px;
-  }
+  .intro div > span { font-size: 23px; }
 
-  .intro h3 {
-    font-size: 40px;
-  }
+  .intro h3 { font-size: 40px; }
 }
 
 .intro p:first-of-type {
@@ -294,16 +266,14 @@ button {
   line-height: 1.5;
 }
 
-.intro p:last-child {
-  line-height: 1.6;
-}
+.intro p:last-child { line-height: 1.6; }
 
 .intro p span {
   font-size: 25px;
   font-weight: 900;
 }
 
-/* Schedule */
+/* ------------------------Schedule----------------------- */
 .schedule {
   background: url("../images/greypatternc.jpg") no-repeat;
   background-size: cover;
@@ -333,18 +303,12 @@ button {
 
 .schedule li:last-child { margin-right: 0; }
 
-.schedule li:nth-of-type(4) {
-  border: 2px solid #fff;
-}
+.schedule li:nth-of-type(4) { border: 2px solid #fff; }
 
-.schedule li > * {
-  margin-bottom: 10px;
-}
+.schedule li > * { margin-bottom: 10px; }
 
 .schedule .fas,
-.schedule .far {
-  font-size: 25px;
-}
+.schedule .far { font-size: 25px; }
 
 .schedule span:first-of-type {
   color: var(--secondary-color);
@@ -373,9 +337,7 @@ button {
 }
 
 @media screen and (max-width: 767px) {
-  .schedule div {
-    padding-bottom: 40px;
-  }
+  .schedule div { padding-bottom: 40px; }
 
   .schedule ul {
     flex-direction: column;
@@ -396,9 +358,7 @@ button {
     margin-bottom: 0;
   }
 
-  .schedule li:nth-of-type(4) {
-    border: none;
-  }
+  .schedule li:nth-of-type(4) { border: none; }
 
   .schedule li > * {
     margin-bottom: 0;
@@ -406,9 +366,7 @@ button {
   }
 
   .schedule .fas,
-  .schedule .far {
-    font-size: 28px;
-  }
+  .schedule .far { font-size: 28px; }
 
   .schedule span:first-of-type {
     flex-basis: 111px;
@@ -423,19 +381,13 @@ button {
     text-align: left;
   }
 
-  .schedule a:first-of-type {
-    display: none;
-  }
+  .schedule a:first-of-type { display: none; }
 
-  .schedule a:last-child {
-    display: inline-block;
-  }
+  .schedule a:last-child { display: inline-block; }
 }
 
-/* Speakers */
-.speakers {
-  padding: 40px 15px 60px;
-}
+/* -------------------------------------------Speakers-------------------------------------------- */
+.speakers { padding: 40px 15px 60px; }
 
 .speakers > div {
   display: grid;
@@ -444,9 +396,7 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
 }
 
-.speakers article {
-  display: flex;
-}
+.speakers article { display: flex; }
 
 .speakers img {
   display: block;
@@ -459,16 +409,11 @@ button {
   border-image-outset: 10px 0 0 10px;
   border-image-repeat: repeat;
   border-image-source: url("https://previews.123rf.com/images/pavelav/pavelav1709/pavelav170900097/87041448-design-frame-with-the-modern-surroundings-with-a-border-of-the-chess-board.jpg");
-  /* object-fit: contain; */
 }
 
-.speakers article > div {
-  padding-left: 15px;
-}
+.speakers article > div { padding-left: 15px; }
 
-.speakers h4 {
-  font-weight: 700;
-}
+.speakers h4 { font-weight: 700; }
 
 .speakers h4::after {
   display: block;
@@ -505,9 +450,7 @@ button {
 }
 
 @media screen and (max-width: 767px) {
-  .speakers {
-    padding-bottom: 40px;
-  }
+  .speakers { padding-bottom: 40px; }
 
   .speakers > div {
     grid-template-columns: 1fr;
@@ -516,28 +459,20 @@ button {
   }
 
   .speakers article:nth-of-type(even),
-  .speakers article:nth-of-type(5) {
-    display: none;
-  }
+  .speakers article:nth-of-type(5) { display: none; }
 
-  .speakers button {
-    display: block;
-  }
+  .speakers button { display: block; }
 }
 
-/* Partners */
+/* ----------------------Partners--------------------- */
 .partners {
   background: var(--primary-color);
   color: var(--other-color);
 }
 
-.partners div {
-  padding: 30px 15px 25px;
-}
+.partners div { padding: 30px 15px 25px; }
 
-.partners h3 {
-  margin-bottom: 15px;
-}
+.partners h3 { margin-bottom: 15px; }
 
 .partners ul {
   display: flex;
@@ -553,33 +488,25 @@ button {
   }
 }
 
-.partners li {
-  margin: 0 5px;
-}
+.partners li { margin: 0 5px; }
 
-.partners li:last-child {
-  margin-left: 15px;
-}
+.partners li:last-child { margin-left: 15px; }
 
-.partners a {
-  display: block;
-}
+.partners a { display: block; }
 
 .partners img {
   width: 100px;
   object-fit: cover;
 }
 
-/* Conf Info */
+/* -----------------Conf Info----------------- */
 .conf-info {
   border-bottom: 1px solid var(--other-color);
   background: rgb(248, 246, 246);
   text-align: center;
 }
 
-.conf-info div {
-  padding: 75px 15px;
-}
+.conf-info div { padding: 75px 15px; }
 
 .conf-info div > span {
   display: none;
@@ -623,25 +550,19 @@ button {
 }
 
 @media screen and (max-width: 767px) {
-  .conf-info div {
-    padding: 90px 15px 30px;
-  }
+  .conf-info div { padding: 90px 15px 30px; }
 
-  .conf-info div > span {
-    display: inline-block;
-  }
+  .conf-info div > span { display: inline-block; }
 }
 
-/* Conf Logo */
+/* -------------------Conf Logo------------------- */
 .conf-logo {
   border-bottom: 1px solid var(--other-color);
   background: #fff;
   text-align: center;
 }
 
-.conf-logo div {
-  padding: 35px 15px 28px;
-}
+.conf-logo div { padding: 35px 15px 28px; }
 
 .conf-logo p {
   margin-bottom: 30px;
@@ -661,7 +582,7 @@ button {
   height: 150px;
 }
 
-/* Past Events */
+/* ------------------Past Events----------------- */
 .past-events {
   padding: 35px 15px 80px;
   text-align: center;
@@ -715,30 +636,24 @@ button {
     justify-content: center;
   }
 
-  .past-events a {
-    flex-basis: 382px;
-  }
+  .past-events a { flex-basis: 382px; }
 
-  .past-events a:first-child {
-    margin-bottom: 15px;
-  }
+  .past-events a:first-child { margin-bottom: 15px; }
 }
 
-/* Form */
+/* ----------------------Form------------------------ */
 form {
   padding-bottom: 50px;
   text-align: center;
 }
 
-/* Pricing */
+/* ----------------------Pricing---------------------- */
 .pricing {
   background: rgb(248, 246, 246);
   text-align: center;
 }
 
-.pricing > div {
-  padding: 65px 15px;
-}
+.pricing > div { padding: 65px 15px; }
 
 .pricing p + div {
   overflow: auto;
@@ -751,14 +666,9 @@ form {
   font-size: 14px;
 }
 
+.pricing thead { background: rgb(248, 246, 246); }
 
-.pricing thead {
-  background: rgb(248, 246, 246);
-}
-
-.pricing tbody {
-  background: #fff;
-}
+.pricing tbody { background: #fff; }
 
 .pricing th,
 .pricing td {
@@ -776,9 +686,7 @@ form {
   padding-right: 55px;
 }
 
-.pricing tbody th {
-  vertical-align: middle;
-}
+.pricing tbody th { vertical-align: middle; }
 
 .pricing tr:nth-of-type(2) td,
 .pricing tr:nth-of-type(3) td {
@@ -789,12 +697,10 @@ form {
 }
 
 @media screen and (max-width: 767px) {
-  .pricing > div {
-    padding-top: 80px;
-  }
+  .pricing > div { padding-top: 80px; }
 }
 
-/* Meal */
+/* -------------------Meal------------------- */
 .meal {
   position: relative;
   margin-bottom: 50px;
@@ -802,9 +708,7 @@ form {
   text-align: center;
 }
 
-.meal .fas {
-  position: absolute;
-}
+.meal .fas { position: absolute; }
 
 .fa-square-full {
   top: -16px;
@@ -819,9 +723,7 @@ form {
   color: #fff;
 }
 
-.meal .ticket-step {
-  margin-bottom: 50px;
-}
+.meal .ticket-step { margin-bottom: 50px; }
 
 .meal-menu {
   margin: 0 auto 17px auto;
@@ -829,49 +731,39 @@ form {
   font-size: 14px;
 }
 
-.meal table:last-child {
-  margin-bottom: 0;
-}
+.meal table:last-child { margin-bottom: 0; }
 
 .meal-menu thead {
   font-weight: 700;
   background: rgb(248, 246, 246);
 }
 
-.meal-menu thead td {
-  padding: 9px 0;
-}
+.meal-menu thead td { padding: 9px 0; }
 
 .meal-menu tbody td {
   padding: 25px 18px;
   vertical-align: middle;
 }
 
-.meal-menu tbody td:first-child {
-  padding-left: 70px;
-}
+.meal-menu tbody td:first-child { padding-left: 70px; }
 
-.meal-menu tbody td:last-child {
-  padding-right: 70px;
-}
+.meal-menu tbody td:last-child { padding-right: 70px; }
 
 @media screen and (max-width: 767px) {
-  .meal-menu, .meal-menu thead, .meal-menu tbody, .meal-menu tr, .meal-menu td {
-    display: block;
-  }
+  .meal-menu,
+  .meal-menu thead,
+  .meal-menu tbody,
+  .meal-menu tr,
+  .meal-menu td { display: block; }
 
   .meal-menu tbody td,
   .meal-menu tbody td:first-child,
-  .meal-menu tbody td:last-child {
-    padding: 8px 0;
-  }
+  .meal-menu tbody td:last-child { padding: 8px 0; }
 
-  .meal-menu tbody td:nth-of-type(even) {
-    background: rgb(248, 246, 246);
-  }
+  .meal-menu tbody td:nth-of-type(even) { background: rgb(248, 246, 246); }
 }
 
-/* Form Submit Button */
+/* --------------------------Form Submit Button------------------------------ */
 .meal + button {
   padding: 12px 35px;
   background: var(--secondary-color);
@@ -879,10 +771,8 @@ form {
   color: #fff;
 }
 
-/* Footer */
-.footer {
-  font-size: 13px;
-}
+/* --------------------------------------Footer------------------------------- */
+.footer { font-size: 13px; }
 
 .footer > div {
   display: flex;
@@ -919,9 +809,7 @@ form {
   color: #fff;
 }
 
-.index-footer {
-  background: #f8f6f6;
-}
+.index-footer { background: #f8f6f6; }
 
 .other-footer {
   background: var(--primary-color);
