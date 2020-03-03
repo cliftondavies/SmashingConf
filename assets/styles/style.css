@@ -836,6 +836,7 @@ form {
 }
 
 .meal-menu thead {
+  font-weight: 700;
   background: rgb(248, 246, 246);
 }
 
@@ -857,14 +858,18 @@ form {
 }
 
 @media screen and (max-width: 767px) {
-  .meal-menu tbody tr {
+  .meal-menu, .meal-menu thead, .meal-menu tbody, .meal-menu tr, .meal-menu td {
     display: block;
   }
 
   .meal-menu tbody td,
   .meal-menu tbody td:first-child,
   .meal-menu tbody td:last-child {
-    padding: 25px 5px;
+    padding: 8px 0;
+  }
+
+  .meal-menu tbody td:nth-of-type(even) {
+    background: rgb(248, 246, 246);
   }
 }
 
