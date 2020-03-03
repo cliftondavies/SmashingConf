@@ -245,7 +245,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: calc(100vh - 90px);
+  min-height: calc(100vh - 90px);
   background: linear-gradient(to top, rgb(248, 246, 246) 60%, rgba(255, 255, 255, 0.8)), url("../images/sfc.jpg");
   background-size: cover;
 }
