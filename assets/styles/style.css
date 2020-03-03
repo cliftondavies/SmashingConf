@@ -817,7 +817,7 @@ form {
 
 .fa-chevron-down {
   top: -5px;
-  left: 49.25%;
+  left: calc(48% + 10px);
   color: #fff;
 }
 
