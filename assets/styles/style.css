@@ -247,7 +247,7 @@ button { border: none; }
 
 @media screen and (max-width: 767px) {
   .intro {
-    height: auto;
+    min-height: auto;
     padding-top: 90px;
     padding-bottom: 65px;
   }
