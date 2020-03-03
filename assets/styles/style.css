@@ -180,7 +180,6 @@ button {
 
 .header div > a {
   display: block;
-  /* flex-shrink: 0; */
   width: 210px;
   height: 60px;
   background: url("../images/smlogo.svg") no-repeat;
@@ -454,13 +453,13 @@ button {
   flex: 0;
   width: 90px;
   height: 90px;
-  border-width: 10px;
+  border-width: 10px solid transparent;
   border-image-slice: 147 0 0 186;
   border-image-width: 10px 20px 20px 10px;
   border-image-outset: 10px 0 0 10px;
-  border-image-repeat: round round;
+  border-image-repeat: repeat;
   border-image-source: url("https://previews.123rf.com/images/pavelav/pavelav1709/pavelav170900097/87041448-design-frame-with-the-modern-surroundings-with-a-border-of-the-chess-board.jpg");
-  object-fit: cover;
+  /* object-fit: contain; */
 }
 
 .speakers article > div {
@@ -542,7 +541,6 @@ button {
 
 .partners ul {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
 }
@@ -729,7 +727,6 @@ button {
 /* Form */
 form {
   padding-bottom: 50px;
-  /* overflow: auto; */
   text-align: center;
 }
 
@@ -745,14 +742,15 @@ form {
 
 .pricing p + div {
   overflow: auto;
+  border: 5px solid var(--secondary-color);
+  border-image: url("../images/bi.png") 40 / 5 5 5 round;
 }
 
 .pricing table {
   margin: 0 auto;
-  border: 6px solid var(--secondary-color);
-  /* overflow: auto; */
   font-size: 14px;
 }
+
 
 .pricing thead {
   background: rgb(248, 246, 246);
