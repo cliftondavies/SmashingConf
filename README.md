@@ -119,12 +119,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- The Corgis, for Actionable Feedback
-- [Cindy Shin](https://www.behance.net/adagio07), for UI Design
-- [Smashing Conference](https://smashingconf.com/sf-2020/), for Website Content and Assets
-- [Sam Goodgame](https://unsplash.com/photos/Pe5BC-EDtB4), for Intro Section Background Image
-- [Basile Bedelek](https://unsplash.com/photos/SNjvN__sSec), for Intro Heading Background Image
-- [Ryan Moreno](https://unsplash.com/photos/w1_4YH5IhDg), for Schedule Background Image
+- The Corgis: Actionable Feedback
+- [Cindy Shin](https://www.behance.net/adagio07): UI Design
+- [Smashing Conference](https://smashingconf.com/sf-2020/): Website Content and Assets
+- [Sam Goodgame](https://unsplash.com/photos/Pe5BC-EDtB4): Intro Section Background Image
+- [Basile Bedelek](https://unsplash.com/photos/SNjvN__sSec): Intro Heading Background Image
+- [Ryan Moreno](https://unsplash.com/photos/w1_4YH5IhDg): Schedule Background Image
 
 ## 📝 License
 
