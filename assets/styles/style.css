@@ -220,7 +220,7 @@ button { border: none; }
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  min-height: calc(100vh - 90px);
+  min-height: calc(100vh - 88px);
   background: linear-gradient(to top, rgb(248, 246, 246) 60%, rgba(255, 255, 255, 0.8)), url("../images/sfc.jpg");
   background-size: cover;
 }
@@ -292,7 +292,7 @@ button { border: none; }
 }
 
 .schedule li {
-  flex-basis: 50%;
+  flex-basis: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
