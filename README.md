@@ -8,6 +8,32 @@
 
 ## Project Implementation
 
+The website contains three pages: Index, About and Tickets.
+
+### Page Wrapper
+
+Each page is placed within a wrapper with a **maximum width** of `1351px`.
+
+There is a Header, Main and Footer section on all three pages. The contents of each section are placed in a **centered** container, which is set to a `max-width` of `1013px`.
+
+#### Header
+
+The first part of each page is the Header. It is hidden on screen sizes up to **768px**, and is only visible from **768px**.
+
+The Header is divided into two sections, that are laid out using **flexbox**. To ensure there is a gap between the Logo and the Main Menu, in the second section, a **left margin** of `175px` is applied to the Main Menu. The links within the Menu are also made to **grow** and **shrink** on a scale of **1**, and given an initial width of **auto**, so that they respond to changes in screen size.
+
+#### Main
+
+Each page contains a Main to wrap sections specific to that page.
+
+#### Footer
+
+### Index
+
+### About
+
+### Tickets
+
 ## Tools & Technologies Used
 
 - HTML5, CSS3.
