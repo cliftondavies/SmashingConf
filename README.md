@@ -93,11 +93,7 @@ Finally, two icons are used to create the diamond at the intersection of Pricing
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cliftondavies/SmashingConf/feature/conf-page/index.html)
-
-## Project Presentation
-
-[Video Recording](https://www.loom.com/share/832c503eec354c7e8ffde430ddfef942)
+[Live Demo Link](https://cliftondavies.github.io/SmashingConf/)
 
 ## Authors
 
