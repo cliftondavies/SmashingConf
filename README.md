@@ -1,10 +1,8 @@
 # SmashingConf
 
-## Aim
+> A redesign of the [Smashing Conference website](https://smashingconf.com/sf-2020/), using [this](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) UI Design created by [Cindy Shin](https://www.behance.net/adagio07).
 
-> To implement a new design of the [Smashing Conference website](https://smashingconf.com/sf-2020/), using [this](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) UI Design created by [Cindy Shin](https://www.behance.net/adagio07).
-
-![screenshot](assets/images/screenshot.png)
+![screenshot](smashing_conf.png)
 
 ## Implementation Details
 
@@ -12,10 +10,9 @@
 
 ## Tools & Technologies Used
 
-- HTML5, CSS3.
-- Github, Git, Visual Studio Code.
-- Pesticide, Font Awesome, Unsplash, TinyPNG/JPG.
-- [This](http://www.imageoptimizer.net/Pages/Home.aspx) Image Optimizer, and [this](https://border-image.com/) Border Image Generator.
+- HTML5
+- CSS3
+- Font Awesome 5
 
 ## Live Demo
 
@@ -41,12 +38,15 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- The Corgis: Actionable Feedback
-- [Cindy Shin](https://www.behance.net/adagio07): UI Design
-- [Smashing Conference](https://smashingconf.com/sf-2020/): Website Content and Assets
-- [Sam Goodgame](https://unsplash.com/photos/Pe5BC-EDtB4): Intro Section Background Image
-- [Basile Bedelek](https://unsplash.com/photos/SNjvN__sSec): Intro Heading Background Image
-- [Ryan Moreno](https://unsplash.com/photos/w1_4YH5IhDg): Schedule Background Image
+- [Pesticide](https://github.com/mrmrs/pesticide)
+- [Cindy Shin](https://www.behance.net/adagio07)
+- [Smashing Conference](https://smashingconf.com/sf-2020/)
+- [Sam Goodgame](https://unsplash.com/photos/Pe5BC-EDtB4)
+- [Basile Bedelek](https://unsplash.com/photos/SNjvN__sSec)
+- [Ryan Moreno](https://unsplash.com/photos/w1_4YH5IhDg)
+- [TinyPNG](https://tinypng.com/)
+- [Image Optimizer](http://www.imageoptimizer.net/Pages/Home.aspx)
+- [Border Image Generator](https://border-image.com/)
 
 ## 📝 License
 
