@@ -47,6 +47,7 @@ Give a ⭐️ if you like this project!
 - [TinyPNG](https://tinypng.com/)
 - [Image Optimizer](http://www.imageoptimizer.net/Pages/Home.aspx)
 - [Border Image Generator](https://border-image.com/)
+- [Techsini multi-mockup generator](https://techsini.com/multi-mockup/index.php)
 
 ## 📝 License
 
