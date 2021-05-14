@@ -12,7 +12,6 @@
 
 - HTML5
 - CSS3
-- Font Awesome 5
 
 ## Live Demo
 
